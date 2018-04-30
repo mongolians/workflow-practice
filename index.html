@@ -1,17 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>Example</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <!-- Do not add `link` tags-->
-      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<head>
+  <title>Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <!-- Do not add `script` tags-->
-      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
-      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
-    </head>
-    <body>
-      <h1>Browser Template</h1>
-    </body>
+  <!-- Do not add `link` tags-->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Do not add `script` tags-->
+  <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+  <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <h1>Look at Books</h1>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="content">
+
+      <!-- BUTTON FOR MAKING API CALL -->
+      <form>
+        <input class="btn btn-default get-button" type="submit" id="get-books" name="See All Books">
+      </form>
+
+      <!-- CODE FOR CONNOR -->
+      <div>
+        <h2 id="apimessage"></h2>
+      </div>
+
+      <!-- CODE FOR SARA -->
+      <div class="handlebars">
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
